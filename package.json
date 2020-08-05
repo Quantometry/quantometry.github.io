@@ -8,6 +8,9 @@
     "css": "styles.css",
     "authorView": false
   },
+  "scripts": {
+    "deploy": "idylll build && gh-pages -d public -b master"
+  },
   "dependencies": {
     "idyll": "^4.0.0",
     "idyll-d3-component": "^2.0.0",
