@@ -9,7 +9,7 @@
     "authorView": false
   },
   "scripts": {
-    "deploy": "idylll build && gh-pages -d public -b master"
+    "deploy": "idyll build && gh-pages -d build -b master"
   },
   "dependencies": {
     "d3": "^4.0.0",
